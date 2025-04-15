@@ -39,6 +39,8 @@ A lightweight API that detects all faces in an image and classifies each face’
     "confidence": 0.92
   }
 
+---
+
 ## ✅ How to use
 ### 1. Clone repo & navigate
 git clone <repo_url>
