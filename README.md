@@ -25,8 +25,6 @@ A lightweight API that detects all faces in an image and classifies each face’
 - `face_cnn.ipynb` — Face detection (MTCNN)
 - `face_emotion_detection.ipynb` — Combine both
 
----
-
 ### 2. Build API with FastAPI
 - Created `main.py` as FastAPI app.
 - Defined endpoint: `POST /emotion`
@@ -57,6 +55,8 @@ uvicorn app.main:app --reload
 Open docs in browser:
 📄 http://127.0.0.1:8000/docs
 
+---
+
 ## 📤 API Usage
 POST /emotion
 Content-Type: multipart/form-data
@@ -73,8 +73,12 @@ file: Upload .jpg or .png image
   ...
 ]
 
+---
+
 ### 🧪 Test with curl (Windows)
 -X POST http://127.0.0.1:8000/emotion -H "accept: application/json" -F "file=@\"C:/Users/Xuan Quynh Phuong/OneDrive - Ho Chi Minh city University of Food Industry/Desktop/emotion_detection_api/test_img/test.jpg\""
+
+---
 
 ## 📁 Project Structure
 emotion_detection_api/
@@ -86,5 +90,7 @@ emotion_detection_api/
 │   └── test.jpg             # Sample test image
 ├── requirements.txt
 ├── README.md
+
+---
 
 ### Author: Tran Xuan Quynh Phuong
