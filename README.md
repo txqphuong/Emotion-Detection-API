@@ -84,3 +84,5 @@ emotion_detection_api/
 │   └── test.jpg             # Sample test image
 ├── requirements.txt
 ├── README.md
+
+### Author: Tran Xuan Quynh Phuong
